@@ -10,6 +10,16 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
+    
+    //Format Currency for Display
+    func formatCurrency(value: Double) -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.maximumFractionDigits = 2
+        formatter.locale = Locale(identifier: Locale.current.identifier)
+        let result = formatter.string(from: value as NSNumber)
+        return result!
+    }
 
     //Create FetchedResultsController for CoreData
     lazy var fetchedResultsController: NSFetchedResultsController<DataModel> = {

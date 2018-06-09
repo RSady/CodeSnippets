@@ -14,6 +14,7 @@
 		31B8171320CC1DD4005E33A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B8171220CC1DD4005E33A1 /* Assets.xcassets */; };
 		31B8171620CC1DD4005E33A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B8171420CC1DD4005E33A1 /* LaunchScreen.storyboard */; };
 		31B8171E20CC28DB005E33A1 /* CoreDataSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8171D20CC28DB005E33A1 /* CoreDataSnippets.swift */; };
+		31B8172020CC2C08005E33A1 /* ApiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8171F20CC2C08005E33A1 /* ApiRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		31B8171520CC1DD4005E33A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31B8171720CC1DD4005E33A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31B8171D20CC28DB005E33A1 /* CoreDataSnippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSnippets.swift; sourceTree = "<group>"; };
+		31B8171F20CC2C08005E33A1 /* ApiRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				31B8170820CC1DD0005E33A1 /* AppDelegate.swift */,
 				31B8170A20CC1DD0005E33A1 /* ViewController.swift */,
+				31B8171F20CC2C08005E33A1 /* ApiRequests.swift */,
 				31B8171D20CC28DB005E33A1 /* CoreDataSnippets.swift */,
 				31B8170C20CC1DD0005E33A1 /* Main.storyboard */,
 				31B8171220CC1DD4005E33A1 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				31B8170B20CC1DD0005E33A1 /* ViewController.swift in Sources */,
 				31B8171120CC1DD0005E33A1 /* Code_Snippets.xcdatamodeld in Sources */,
+				31B8172020CC2C08005E33A1 /* ApiRequests.swift in Sources */,
 				31B8171E20CC28DB005E33A1 /* CoreDataSnippets.swift in Sources */,
 				31B8170920CC1DD0005E33A1 /* AppDelegate.swift in Sources */,
 			);
